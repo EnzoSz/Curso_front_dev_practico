@@ -1,3 +1,9 @@
 .logo {
     display: block;
+
+}
+.secondary-button {
+    position: absolute;
+    bottom: 20px;
+    width: inherit;
 }
