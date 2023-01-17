@@ -16,13 +16,17 @@ html {
 body {
     margin: 0;
 }
-.product-detail {
+aside {
     background-color: var(--white);
     width: 360px;
-    padding: 0px 24px;
+    
     box-sizing: border-box;
     position: absolute;
     right: 0;
+}
+
+#shoppingCartContainer {
+    padding: 0px 24px;
 }
 .title-container {
     display: flex;
