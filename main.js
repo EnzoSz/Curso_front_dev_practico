@@ -25,6 +25,7 @@ function toggleDesktopMenu(){
 
 function toggleMobileMenu(){
   const isshoppingCartContainerClosed = shoppingCartContainer.classList.contains('inactive');
+  
   if (!isshoppingCartContainerClosed) {
      shoppingCartContainer.classList.add('inactive');
   }
